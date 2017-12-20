@@ -1,0 +1,121 @@
+Object Name,Object Type
+DefaultFieldFromLookup,Action
+Project Close,Dialog
+Task IT Equipment/Software,Dialog
+Task IT Problem,Dialog
+Task IT System Change,Dialog
+Task IT User Change,Dialog
+Task Type Selector IT Request,Dialog
+h21_columndefinition,Entity
+h21_columnset,Entity
+h21_freightbilllogic,Entity
+h21_project,Entity
+h21_sheetdefinition,Entity
+h21_task,Entity
+Active General Project,Entity View
+Active H21 Projects,Entity View
+Active Summary Project,Entity View
+Active Template Project,Entity View
+H21 Project Advanced Find View,Entity View
+H21 Project Associated View,Entity View
+H21 Project Lookup View,Entity View
+H21 Task Advanced Find View,Entity View
+H21 Task Associated View,Entity View
+H21 Task Labor View,Entity View
+H21 Task Lookup View,Entity View
+H21 Task Material View,Entity View
+H21 Task Receipt View,Entity View
+Inactive H21 Deployment Lists,Entity View
+Inactive H21 Object Change Logs,Entity View
+Inactive H21 Planned Object Changes,Entity View
+Inactive H21 Projects,Entity View
+My and My Team's Projects,Entity View
+My IT Request,Entity View
+Quick Find Active H21 Projects,Entity View
+Quick Find Active H21 Tasks,Entity View
+sTK02-Active Our Tasks,Entity View
+sTK04-Inactive Our Tasks,Entity View
+sTK06-My To Do List,Entity View
+sTK08-Rank 499,Entity View
+x05-Active Build Receipts,Entity View
+x10-Active Cases,Entity View
+Information,Form
+Information,Form
+Project - 120,Form
+Project Bulk Edit-165,Form
+Project Coordinator-160,Form
+Project Coordinator-160,Form
+Project Default-120,Form
+Project Fallback-109,Form
+Project Heartland-155,Form
+Project Released-150,Form
+Project-122,Form
+Project-122,Form
+Project-122,Form
+Task Case-170,Form
+Task Coordinator-160,Form
+Task Default-120,Form
+Task Fallback-109,Form
+Task Heartland-155,Form
+Task IT Request Assignee-175,Form
+Task IT Request Triage-165,Form
+Task IT Request-135,Form
+Task IT Request-145,Form
+Task Released-150,Form
+xxx-Project Admin-100,Form
+xxx-Task Admin-100,Form
+yyy-Project Template-105,Form
+yyy-Task Template-105,Form
+zzzTask IT Assignee -175,Form
+zzzTask IT Change-134,Form
+zzzTask IT Equipment-136,Form
+zzzTask IT Permission-132,Form
+zzzTask IT Problem-130,Form
+zzzTask IT Request Released-140,Form
+zzzTask IT Triage-165,Form
+h21_pl_columndefinitiontype,Option Set
+h21_pl_columnsettype,Option Set
+h21_pl_sheetdefinitiontype,Option Set
+h21_pl_tasksubtype,Option Set
+h21_pl_xrmdatatype,Option Set
+ObjectChangeLogbyObject.rdl,RDL
+ProductCostCalculator.rdl,RDL
+rsdObjectChangeLogbyObject.rsd,RSD
+rsdBOMprm.rsd,RSD
+rsdprmItemCode_ProdCostCalc.rsd,RSD
+ActivationPermissionsPlugin.Plugins.TeamLogic: SetState of h21_project,SDK Message Processing Step
+ActivationPermissionsPlugin.Plugins.TeamLogic: SetStateDynamicEntity of h21_project,SDK Message Processing Step
+R-H21 Manufacturing,Security Role
+R-H21 Quality Inspection,Security Role
+R-H21 Quality Inspection,Security Role
+R-H21 xForm Project Bulk Edit-165,Security Role
+DWBOMDetailBatchUpdate.dtsx,SSIS Package
+DWBOMDetailOnDemand.dtsx,SSIS Package
+LeadTimeMassUpdate.dtsx,SSIS Package
+ProjectCloseCloseTask.dtsx,SSIS Package
+usp_H21REL_ObjectChangeLogbyObject_OLAP,Stored Procedure
+usp_H21_BOMDetailProfile_LeadTimeOnDemandUpdate_PROC,Stored Procedure
+usp_H21_BOMDetailProfileLeadTimeMassUpdate_PROC,Stored Procedure
+usp_H21REL_ProductCostCalculator_DW,Stored Procedure
+usp_HBS2013_ExecuteProjDeactivate_CloseTasks_PROC,Stored Procedure
+usp_HBS2013_ProjDeactivate_CheckCancelDelete_PROC,Stored Procedure
+usp_HBS2013_ProjDeactivate_CheckClose_PROC,Stored Procedure
+usp_HBS2013_WRM_UpdateProjectQuantities_PROC,Stored Procedure
+h21_CallProcess,Web Resource
+h21_DefaultFieldFromLookup,Web Resource
+h21_ProjectDefaults,Web Resource
+h21_ProjectFormSwitch,Web Resource
+h21_ProjectLookupFilters,Web Resource
+h21_ProjectLookupFilters,Web Resource
+h21_TaskITLookupFilters,Web Resource
+H21-DM-Task IT Request,Workflow
+Project Build Finished Good Receipt,Workflow
+Project Release,Workflow
+Project Status Change,Workflow
+Project Trigger Date,Workflow
+Task IT Defaults,Workflow
+Task IT Request Create Doc Location,Workflow
+Task Trigger Date,Workflow
+WIP Inventory Processing - WIP Issue Labor,Workflow
+DefaultQueries.DefaultFieldFromLookup,Workflow Assembly
+ITRequest.Defaults,Workflow Assembly
